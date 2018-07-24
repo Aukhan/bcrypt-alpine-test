@@ -1,0 +1,16 @@
+{
+  "name": "bcrypt-alpine-test",
+  "version": "1.0.0",
+  "description": "testing installation & working of bcrypt on node-alpine",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "author": "Asad Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
